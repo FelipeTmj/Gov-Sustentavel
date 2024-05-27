@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#cabecalho{
+    background-color: #c0c0c0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 75%;
+    margin-top: -155px;
+    font-family: "MuseoModerno", sans-serif;
+}
+
+li{
+    margin-right: 12px;
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+.info {
+    text-align: end;
+    word-spacing: 10px;
+    margin: 0;
+
+}
+#logo {
+    margin-left: 50px;
+    text-align: center;
+    margin-top: -55px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-size: 24px;
+}
+.container-area1{
+    margin-top: 13%;
+    margin-left: 13%;
+    font-family: "MuseoModerno", sans-serif;
+    font-size: x-large;
+
+}
+.sobre-nos{
+    background-color: #111111;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    text-align: justify;
+    margin-top: 15%;
+    font-family: "MuseoModerno", sans-serif;
+    height: 2000px;
+}
+img#felipe{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+#felipe{
+    margin-left: 30%;
+    margin-top: -6%;
+    font-size: larger;
+}
+img#gean{
+    margin-top: 15%;
+    margin-left: 65%;
+}
+#gean{
+    margin-left: 20%; 
+    margin-top: -5%;
+    font-size: larger;
+}
+img#mayllon{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+#mayllon{
+    margin-left: 30%;
+    margin-top: -6%;
+    font-size: larger;
+}
+img#otavio{
+    margin-top: 15%;
+    margin-left: 65%;
+}
+#otavio{
+    margin-left: 40%; 
+    margin-top: -6%;
+    font-size: larger;
+}
+img#vinicius{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+#vinicius{
+    margin-left: 30%;
+    margin-top: -6%;
+    font-size: larger;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: #111111;
+}

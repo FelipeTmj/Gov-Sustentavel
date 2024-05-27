@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+/*Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more. */
+
+@media print{
+
+}
+
+@media screen and  (min-width: 1px) and (max-width: 480px){
+ 
+  img#desktop { display: none;}
+  img#smartphone { display: block;
+  margin-top: 25%;
+  width: 100%; 
+  margin-top: 22%;}
+ 
+
+ .sustainabilty{
+  margin-left: 40%;
+  font-size: 6px;
+  color: #fff;
+  font-family:'Courier New', Courier, monospace ;
+  font-weight: bold;
+  text-shadow: #000 3px 2px 3px;
+ }
+#cabecalho{
+    background-color: #c0c0c0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 14%;
+}
+
+ .container-area1{
+  margin-left: 12%;
+  font-size: medium;
+  visibility: hidde;
+  color: #ffffff;
+  font-family: "MuseoModerno", sans-serif;
+ } 
+ button{
+  width: 270px;
+  height: 50px;
+  font-size: medium;
+  margin-top: 10%;
+}
+
+ #photo1{
+  display: none;
+}
+.container-area3{
+  margin-top: 20%;
+  font-size: medium;
+  visibility: hidde;
+  color: #ffffff;
+  font-family: "MuseoModerno", sans-serif;
+}
+
+.container-area5{
+    font-size: medium;
+    visibility: hidde;
+    color: #ffffff;
+    font-family: "MuseoModerno", sans-serif;
+}
+#logo {
+    display: none; 
+}
+#logo-cel{
+    margin-top: 11px;
+    margin-left: 10px;
+}}
+
+
+  
+
+@media screen and  (min-width: 769px) and (max-width: 1024px){
+}
+
+
+
+@media screen and  (min-width: 1025px) and (max-width: 2000px){
+  img#desktop { display: block;}
+  img#smartphone { display: none;}
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#cabecalho{
+    background-color: #c0c0c0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+}
+
+
+ul#cabecalho{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 75%;
+    margin-top: -155px;
+    font-family: "MuseoModerno", sans-serif;
+}
+
+li#cabecalho{
+    margin-right: 12px;
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+.info {
+    text-align: end;
+    word-spacing: 10px;
+    margin: 0;
+
+}
+#logo {
+    margin-left: 50px;
+    text-align: center;
+    margin-top: -55px;
+    display: block;
+}
+#logo-cel{
+    display: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-size: 24px;
+}
+.photo{
+    text-align: center;
+    margin-bottom: 10%;
+    width: 100%;
+    display: block;
+    
+}
+.sustainabilty{
+    margin-top: -49%;
+    margin-left: 38%;
+    font-size: 35px;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+    
+}
+.area-1{
+    margin-top: 45%;
+    margin-left: 14%;
+    font-size: x-large;
+    color: #ffffff;
+    font-family: "MuseoModerno", sans-serif;
+}
+.container-button{
+    border-radius:  250px;
+}
+button{
+    border: none;
+    padding: 15px 32px;
+    border-radius: 50px;
+    background-color: #2a8c4a;
+    height: 50px;
+    width: 500px;
+    color: white;
+    font-size: large;
+    margin-top: 25px;
+}
+#photo1{
+    margin-top: -13%;
+    margin-left: 10%;
+}
+
+.container-area2{
+    margin-top:  6%;
+    margin-left: 14%;
+    font-size: x-large;
+    visibility: hidde;
+    color: #ffffff;
+    font-family:"MuseoModerno", sans-serif;
+}
+footer{
+    text-align: center;
+    background-color: #111111;
+    width: 100%;
+    margin-left: 25%;
+    height: 100px;
+    margin-top: 8%;
+}
+
+}
